@@ -8,6 +8,12 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>http://a792c66bc074311e9a4ea0257dc3df00-451991629.us-east-2.elb.amazonaws.com/repository/maven-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<groupId>com.nishant</groupId>
 	<artifactId>demo-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
