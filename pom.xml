@@ -8,6 +8,7 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
