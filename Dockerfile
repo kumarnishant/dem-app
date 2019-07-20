@@ -7,7 +7,7 @@ RUN mvn -B -e -C -T 1C org.apache.maven.plugins:maven-dependency-plugin:3.0.2:go
 COPY main/src/ /app/src/
 COPY sec/site.css .
 RUN ls
-#RUN mvn clean package -DskipTests
+RUN mvn clean package -DskipTests
 
 
 #FROM openjdk:8-jdk-alpine
